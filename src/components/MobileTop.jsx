@@ -2,7 +2,7 @@ import React from "react";
 
 export const MobileTop = () => {
   return (
-    <div className="flex flex-col px-4 my-16 items-center justify-center md:hidden">
+    <div className="flex flex-col mx-4 my-16 items-center justify-center md:hidden">
       <div className="img relative w-72 h-[300px]">
         <img
           src="/IMG_0034.jpg"
@@ -14,7 +14,9 @@ export const MobileTop = () => {
       <div className="title mt-12 items-left w-full flex flex-col gap-12">
         <div className="title-top">
           {" "}
-          <h1 className="text-3xl font-bold text-gray-900">Hi, I’m Sagar 👋</h1>
+          <h1 className="text-3xl font-bold text-gray-900">
+            Hi, I’m Shagai 👋
+          </h1>
           <p className="menu-para">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital

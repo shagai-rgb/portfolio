@@ -5,8 +5,8 @@ export const AboutMeLayout = () => {
   return (
     <div className="flex flex-col items-center w-screen bg-gray-50">
       <div className="flex flex-col items-center gap-6 mx-4 my-16 md:w-auto md:p-4 md:gap-12  xl:w-[1280px] ">
-        <div className="flex justify-center items-center m menu-para rounded-xl w-[105px] h-[28px] bg-gray-200">
-          about me
+        <div className="flex justify-center items-center menu-para rounded-xl w-[105px] h-[28px] bg-gray-200">
+          About me
         </div>
         <div className="flex flex-col items-center mx-4 lg:items-start lg:flex-row  md:w-auto md:px-1 md:mx-0 xl:[1280px] gap-12 ">
           <div className="w-72 h-[300px] lg:w-[440px] lg:h-[520px] xl:w-[584px] ">

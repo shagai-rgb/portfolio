@@ -4,7 +4,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 
 export const MobileHead = () => {
   return (
-    <header className=" flex justify-between items-center md:px-8 md:my-4  xl:w-[1280px] xl:my-4 xl:mx-auto">
+    <header className=" flex justify-between mx-4 my-4 items-center md:px-4 md:my-4  xl:w-[1280px] xl:my-4 xl:mx-auto">
       <h1 className="text-3xl font-bold text-gray-900">SS</h1>{" "}
       <IoMdMenu className="flex text-4xl content-center md:hidden" />
       <div className="menu hidden items-center md:flex gap-6">

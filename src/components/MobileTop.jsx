@@ -6,12 +6,12 @@ export const MobileTop = () => {
       <div className="img relative w-72 h-[300px]">
         <img
           src="/IMG_0034.jpg"
-          className="absolute z-10 w-60 h-72 object-cover bg-white p-2 left-1/2 -translate-x-1/2"
+          className="absolute z-10 w-60 h-72 object-cover -translate-x-1/2 bg-white p-2 left-1/2 "
           alt=""
         />
         <div className="absolute z-0 img-bg w-[264px] h-[272px] left-1/2 -translate-x-1/2 bg-gray-200 top-7"></div>
       </div>
-      <div className="title mt-12 items-left w-full flex flex-col gap-12">
+      <div className="title mt-12 items-left  w-full flex flex-col gap-12">
         <div className="title-top">
           {" "}
           <h1 className="text-3xl font-bold text-gray-900">

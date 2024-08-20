@@ -2,7 +2,7 @@ import React from "react";
 
 export const WebTop = () => {
   return (
-    <div className=" hidden md:flex  md:h-[360px] px-8 md:my-24 xl:w-[1280px] xl:mx-auto">
+    <div className=" hidden md:flex  md:h-[360px] px-8 md:my-24 xl:w-[1280px] xl:px-4 xl:mx-auto">
       <div className="head-container flex  lg:gap-12 ">
         <div className="title items-left flex flex-col h-auto w-auto md:gap-3.5 lg:gap-12">
           <div className="title-top">

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Work = () => {
   return (
-    <div className="flex flex-col items-center w-screen bg-gray-50">
+    <div className="flex flex-col items-center w-screen bg-white">
       <div className="flex flex-col items-center gap-6 mx-4 my-16 md:p-4 md:gap-12  xl:w-[1184px] ">
         <div className="flex flex-col items-center gap-4">
           <div className="flex justify-center items-center menu-para rounded-xl w-[105px] h-[28px] bg-gray-200">

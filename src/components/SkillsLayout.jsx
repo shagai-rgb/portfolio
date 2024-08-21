@@ -31,8 +31,15 @@ export const SkillsLayout = () => {
           </p>
         </div>
         <div className="flex gap-x-10 md:gap-x-12 lg:gap-x-14 xl:gap-x-[82px] gap-y-4 md:gap-y-12 flex-wrap justify-between items-start">
-          {icon.map((el) => {
-            return <img src={el.icon} className="w-auto h-[100px]" alt="" />;
+          {icon.map((el, index) => {
+            return (
+              <img
+                key={index}
+                src={el.icon}
+                className="w-auto h-[100px]"
+                alt=""
+              />
+            );
           })}
         </div>
       </div>

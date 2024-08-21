@@ -4,6 +4,8 @@ import { AboutMeLayout } from "./AboutMeLayout";
 import { SkillsLayout } from "./SkillsLayout";
 import { Experience } from "./Experience";
 import { Work } from "./Work";
+import { Contact } from "./Contact";
+import { Footer } from "./Footer";
 
 export const PortfolioContainer = () => {
   return (
@@ -13,6 +15,8 @@ export const PortfolioContainer = () => {
       <SkillsLayout />
       <Experience />
       <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 };

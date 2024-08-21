@@ -6,7 +6,6 @@ export const WebTop = () => {
       <div className="head-container flex  lg:gap-12 ">
         <div className="title items-left flex flex-col h-auto w-auto md:gap-3.5 lg:gap-12">
           <div className="title-top">
-            {" "}
             <h1 className="text-3xl font-bold text-gray-900">
               Hi, I’m Shagai 👋
             </h1>

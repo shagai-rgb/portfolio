@@ -6,18 +6,18 @@ export const MobileTop = () => {
       <div className="img relative w-72 h-[300px]">
         <img
           src="/IMG_0034.jpg"
-          className="absolute z-10 w-60 h-72 object-cover -translate-x-1/2 bg-white p-2 left-1/2 "
+          className="absolute z-10 w-60 h-72 object-cover -translate-x-1/2 bg-white dark:bg-black p-2 left-1/2 "
           alt=""
         />
-        <div className="absolute z-0 img-bg w-[264px] h-[272px] left-1/2 -translate-x-1/2 bg-gray-200 top-7"></div>
+        <div className="absolute z-0 img-bg w-[264px] h-[272px] left-1/2 -translate-x-1/2 bg-gray-200 dark:bg-gray-600  top-7"></div>
       </div>
       <div className="title mt-12 items-left  w-full flex flex-col gap-12">
         <div className="title-top">
           {" "}
-          <h1 className="text-3xl font-bold text-gray-900">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
             Hi, I’m Shagai 👋
           </h1>
-          <p className="menu-para">
+          <p className="menu-para dark:text-gray-300">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
@@ -26,12 +26,12 @@ export const MobileTop = () => {
           </p>
         </div>
 
-        <div className="title-location">
-          <p className="menu-para items-center flex gap-2">
+        <div className="title-location dark:text-gray-300">
+          <p className="menu-para items-center flex gap-2 dark:text-gray-300">
             <img src="/img-loc1.png" className="w-6 h-6" alt="" />
             Ulaanbaatar, Mongolia
           </p>
-          <p className="menu-para flex gap-2 items-center">
+          <p className="menu-para flex gap-2 items-center dark:text-gray-300">
             <img src="/img-loc2.png" className="w-6 h-6" alt="" />
             Available for new projects
           </p>

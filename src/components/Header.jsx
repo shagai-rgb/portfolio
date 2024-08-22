@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { MobileHead } from "./MobileHead";
 import { MobileTop } from "./MobileTop";
 import { WebTop } from "./WebTop";
 
-export const Header = () => {
+export const Header = ({ themeToggle, sunToggle }) => {
   return (
     <header>
-      <MobileHead />
+      <MobileHead themeToggle={themeToggle} sunToggle={sunToggle} />
       <MobileTop />
       <WebTop />
     </header>

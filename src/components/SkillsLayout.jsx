@@ -23,10 +23,10 @@ export const SkillsLayout = () => {
     <div className="flex flex-col items-center w-screen">
       <div className="flex flex-col items-center px-4 my-16 mx-4 gap-6 md:gap-12 md:my-[96px] xl:w-[1280px] ">
         <div className="flex flex-col items-center gap-4">
-          <div className="flex justify-center items-center menu-para rounded-xl w-[105px] h-[28px] bg-gray-200">
+          <div className="flex justify-center items-center menu-para rounded-xl w-[105px] h-[28px] bg-gray-200 dark:text-gray-300 dark:bg-gray-600">
             Skills
           </div>
-          <p className=" text-center text-lg text-gray-600 font-sans font-light 	">
+          <p className=" text-center text-lg text-gray-600 font-sans font-light dark:text-gray-300	">
             The skills, tools and technologies I am really good at:
           </p>
         </div>
@@ -36,7 +36,9 @@ export const SkillsLayout = () => {
               <img
                 key={index}
                 src={el.icon}
-                className="w-auto h-[100px]"
+                className={`w-auto h-[100px] ${index === 5 && "dark:invert"}
+                ${index === 13 && "dark:invert"} 
+                ${index === 7 && "dark:invert"}`}
                 alt=""
               />
             );

@@ -7,11 +7,12 @@ import { Work } from "./Work";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
 import { useTheme } from "next-themes";
+import { MobileHead } from "./MobileHead";
 
 export const PortfolioContainer = () => {
   const { theme, setTheme, systemTheme } = useTheme();
 
-  const [isDark, setIsDark] = useState(systemTheme === "light" ? false : true);
+  const [isDark, setIsDark] = useState(systemTheme === "light" ? true : false);
 
   const sunToggle = () => {
     return isDark ? "/moon.png" : "/sun.png";
@@ -26,7 +27,8 @@ export const PortfolioContainer = () => {
 
   return (
     <div>
-      <Header themeToggle={themeToggle} sunToggle={sunToggle} />
+      <MobileHead themeToggle={themeToggle} sunToggle={sunToggle} />
+      <Header />
       <AboutMeLayout />
       <SkillsLayout />
       <Experience />
